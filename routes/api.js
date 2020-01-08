@@ -1,7 +1,7 @@
 const router = require ('express').Router()
 const db = require ('../models/workout1.js')
 
-router.put('/api/workouts/:id', function (request, response){
+router.put('/api/addexercise/:id', function (request, response){
     console.log(request.params.id, request.body)
     db.findByIdAndUpdate(
          request.params.id,

@@ -3,7 +3,7 @@ const Schema = mongoose.Schema
 
 const workout1schema = new Schema(
     {
-        exercises: [
+        exercise: [
             {
                 exercisename: {
                     type: String
@@ -16,7 +16,7 @@ const workout1schema = new Schema(
             }
             }
           ],
-          
+
           workoutname: {
             type: String
             // required: "enter workoutname"   
