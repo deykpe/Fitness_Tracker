@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Fitness Tracker</h1>
+    </header>
+    
+        <form>
+            <div>
+              Workout Name:<br>
+              <input id="workoutname" type="text" name="workoutname" value="ex, jogging">
+              <br>
+              <button type="button" id="save"> Create New Workout</button>
+            </div>
+      
+              <div>
+                <h3 id="hi">
+      
+                </h3>
+                Exercise Name:
+                <input id="exercisename" type="text" name="exercisename" value="ex, jogging">
+              Number of Reps:<br>
+              <input id="reps" type="number" name="numberofreps" value="10">
+              <button type="button" id="new">Add New Exercise</button>
+      
+              </div>
+              
+            </form> 
+  
+    <div class="prv-workout container">
+
+    </div>
+    <div class="new-workout container">
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
